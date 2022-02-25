@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "full-icu": "^1.4.0",
     "luxon": "^2.3.0"
   }
 }
