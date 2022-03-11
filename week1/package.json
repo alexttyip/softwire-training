@@ -1,8 +1,8 @@
 {
-  "name": "training",
+  "name": "week1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "1-strings.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "luxon": "^2.3.0"
+    "luxon": "^2.3.1"
   }
 }
