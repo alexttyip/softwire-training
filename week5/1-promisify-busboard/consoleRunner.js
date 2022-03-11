@@ -96,6 +96,7 @@ export default class ConsoleRunner {
 
       that.displayStopPoints(stopPoints);
     } catch (err) {
+      // Could've split this into several try-catches here but got a bit lazy
       if (err.code === "ENOTFOUND") console.error("Host not found");
       else if (err.status === 404) console.error("Postcode not found");
       else if (err.status >= 500) console.error("Server error");
