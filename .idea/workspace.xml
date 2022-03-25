@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d39abc3c-5ae1-49bd-b0c9-d8b21afbe090" name="Changes" comment="Week 5 exercise 1">
-      <change afterPath="$PROJECT_DIR$/week6-clean-code/day2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week6-clean-code/day2.txt" afterDir="false" />
+    <list default="true" id="d39abc3c-5ae1-49bd-b0c9-d8b21afbe090" name="Changes" comment="Week 5 part 2 (AoC 2019 Day 5) - unclean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6-clean-code/day5.js" beforeDir="false" afterPath="$PROJECT_DIR$/week6-clean-code/day5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +52,17 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v14.17.0/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Node.js.day2.js">
+  <component name="RunManager" selected="Node.js.day5.js">
     <configuration name="2-promise-all.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5/2-promise-all.js" working-dir="$PROJECT_DIR$/week5">
       <method v="2" />
     </configuration>
     <configuration name="3-promise-all-error.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5/3-promise-all-error.js" working-dir="$PROJECT_DIR$/week5">
       <method v="2" />
     </configuration>
-    <configuration name="consoleRunner.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5/1-promisify-busboard/consoleRunner.js" working-dir="$PROJECT_DIR$/week5/1-promisify-busboard">
+    <configuration name="day2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week6-clean-code/day2.js" working-dir="$PROJECT_DIR$/week6-clean-code">
       <method v="2" />
     </configuration>
-    <configuration name="day2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week6-clean-code/day2.js" working-dir="$PROJECT_DIR$/week6-clean-code">
+    <configuration name="day5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week6-clean-code/day5.js" working-dir="$PROJECT_DIR$/week6-clean-code">
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -78,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.day5.js" />
         <item itemvalue="Node.js.day2.js" />
         <item itemvalue="npm.start" />
         <item itemvalue="Node.js.3-promise-all-error.js" />
         <item itemvalue="Node.js.2-promise-all.js" />
-        <item itemvalue="Node.js.consoleRunner.js" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +95,9 @@
       <updated>1647007793962</updated>
       <workItem from="1647007800155" duration="1029000" />
       <workItem from="1647251295860" duration="30000" />
-      <workItem from="1647613031784" duration="4511000" />
+      <workItem from="1647613031784" duration="5761000" />
+      <workItem from="1647855924985" duration="402000" />
+      <workItem from="1648218590901" duration="7057000" />
     </task>
     <task id="LOCAL-00001" summary="Week 5 exercise 1">
       <created>1647012681438</created>
@@ -105,7 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647012681438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Week 5 part 2 (AoC 2019 Day 5) - unclean">
+      <created>1648223212538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648223212538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Week 5 part 2 (AoC 2019 Day 5) - unclean">
+      <created>1648223717947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648223717947</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Week 5 part 2 (AoC 2019 Day 5) - unclean">
+      <created>1648224184535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648224184535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,8 +145,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Week 5 exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 5 exercise 1" />
+    <MESSAGE value="Week 5 part 2 (AoC 2019 Day 5) - unclean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 5 part 2 (AoC 2019 Day 5) - unclean" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
