@@ -1,0 +1,30 @@
+body {
+  color: orange;
+  background: lightgray;
+  padding: 0;
+}
+
+.container {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+img {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+img:hover {
+  transform: scale(1.5) translateX(50%) rotate(360deg);
+}
+
+p {
+  display: inline-block;
+  background: linear-gradient(90deg, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*# sourceMappingURL=index.css.map */

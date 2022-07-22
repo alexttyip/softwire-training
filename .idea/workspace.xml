@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39abc3c-5ae1-49bd-b0c9-d8b21afbe090" name="Changes" comment="Week 5 part 2 (AoC 2019 Day 5) - unclean">
-      <change afterPath="$PROJECT_DIR$/week8/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/.nycrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/GildedRoseRequirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/app/gilded-rose.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/test/golden-master-text-test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/test/jest/gilded-rose.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,35 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/week8/node_modules/jest" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v14.17.0/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/week8/node_modules/typescript/lib" />
-  </component>
-  <component name="RunManager" selected="Jest.gilded-rose.spec.ts">
-    <configuration name="Backstage passes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/week8/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/week8" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/week8/test/jest/gilded-rose.spec.ts" />
-      <test-names>
-        <test-name value="Backstage passes" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/alex.yip/.nvm/versions/node/v14.17.0/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/alex.yip/IdeaProjects/training/week8/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RunManager" selected="Node.js.sudoku.js">
     <configuration name="Backstage passes.should be worthless after the concert" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -90,20 +64,6 @@
       <test-names>
         <test-name value="Backstage passes" />
         <test-name value="should be worthless after the concert" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Backstage passes.should increase by 1 when there are more than 10 days" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/week8/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$/week8" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/week8/test/jest/gilded-rose.spec.ts" />
-      <test-names>
-        <test-name value="Backstage passes" />
-        <test-name value="should increase by 1 when there are more than 10 days" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -131,13 +91,19 @@
       <test-file value="$PROJECT_DIR$/week8/test/jest/gilded-rose.spec.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="sorting.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sorting.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="sudoku.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sudoku.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.sudoku.js" />
+        <item itemvalue="Node.js.sorting.js" />
         <item itemvalue="Jest.gilded-rose.spec.ts" />
         <item itemvalue="Jest.Gilded Rose.should increase the Quality of Aged Brie over time" />
         <item itemvalue="Jest.Backstage passes.should be worthless after the concert" />
-        <item itemvalue="Jest.Backstage passes" />
-        <item itemvalue="Jest.Backstage passes.should increase by 1 when there are more than 10 days" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +120,11 @@
       <workItem from="1647613031784" duration="5761000" />
       <workItem from="1647855924985" duration="402000" />
       <workItem from="1648218590901" duration="7124000" />
-      <workItem from="1649424049451" duration="10378000" />
+      <workItem from="1649424049451" duration="10506000" />
+      <workItem from="1649666293387" duration="38000" />
+      <workItem from="1650641296271" duration="747000" />
+      <workItem from="1656685639933" duration="3158000" />
+      <workItem from="1658494530350" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="Week 5 exercise 1">
       <created>1647012681438</created>
